@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Assignment</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Complete information of Works assign to employee is shown here with details like</h2>
+
+        <div class="row">
+            <label>Project name:</label>
+            <input type="text" id="projectName">
+            <label>Module name/no:</label>
+            <input type="text" id="moduleName">
+        </div>
+
+        <div class="row">
+            <label>Team Lead:</label>
+            <input type="text" id="teamLead">
+        </div>
+
+        <div class="row">
+            <label>Team members:</label>
+            <input type="text" id="teamMember1" placeholder="1)">
+            <input type="text" id="teamMember2" placeholder="2)">
+            <input type="text" id="teamMember3" placeholder="3)">
+        </div>
+
+        <div class="row">
+            <label>Related documents and links:</label>
+            <textarea id="documents"></textarea>
+        </div>
+
+        <div class="row date-container">
+            <div>
+                <label>Start date:</label>
+                <input type="date" id="startDate">
+            </div>
+            <div>
+                <label>Deadline:</label>
+                <input type="date" id="deadline">
+            </div>
+        </div>
+
+        <button onclick="submitForm()">Submit</button>
+    </div>
+
+    <script src="page.js"></script>
+</body>
+</html>
