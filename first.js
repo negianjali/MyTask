@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".view-details").forEach(button => {
         button.addEventListener("click", (event) => {
             const taskTitle = event.target.closest(".task").querySelector("h3").innerText;
-            alert(`Showing details for: ${taskTitle}`);
         });
     });
 
